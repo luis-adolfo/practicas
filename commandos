@@ -1,0 +1,54 @@
+Monaco21:practica2 alumno$ rm nuevodir
+rm: nuevodir: is a directory
+Monaco21:practica2 alumno$ rm -d nuevodir
+Monaco21:practica2 alumno$ ls
+Monaco21:practica2 alumno$ cd ../
+Monaco21:~ alumno$ ls
+Desktop		Downloads	Library		Pictures	practica2
+Monaco21:~ alumno$ cd practoica23
+-bash: cd: practoica23: No such file or directory
+Monaco21:~ alumno$ cd practica2
+Monaco21:practica2 alumno$ mkdir quimica
+Monaco21:practica2 alumno$ ls
+quimica
+Monaco21:practica2 alumno$ mkidir fisica
+-bash: mkidir: command not found
+Monaco21:practica2 alumno$ mkdir fisica
+Monaco21:practica2 alumno$ ls
+fisica	quimica
+Monaco21:practica2 alumno$ mkdir programacion
+Monaco21:practica2 alumno$ mkdir calculo
+Monaco21:practica2 alumno$ mkdir algebra
+Monaco21:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Monaco21:practica2 alumno$ cd algebra
+Monaco21:algebra alumno$ touch archivo.txt
+Monaco21:algebra alumno$ ls
+archivo.txt
+Monaco21:algebra alumno$ echo archivo.txt "luis adolfo baños espino 316628912"
+archivo.txt luis adolfo baños espino 316628912
+Monaco21:algebra alumno$ ls
+archivo.txt
+Monaco21:algebra alumno$ ls
+archivo.txt
+Monaco21:algebra alumno$ echo "luis adolfo baños espino 316628912" >> archivo.txt
+Monaco21:algebra alumno$ cp archivo.txt ../fisica/
+Monaco21:algebra alumno$ cp archivo.txt ../quimica/
+Monaco21:algebra alumno$ cp archivo.txt ../programacion/
+Monaco21:algebra alumno$ cp archivo.txt ../calculo/
+Monaco21:algebra alumno$ cd practica2
+-bash: cd: practica2: No such file or directory
+Monaco21:algebra alumno$ cd quimica
+-bash: cd: quimica: No such file or directory
+Monaco21:algebra alumno$ cd quimica/
+-bash: cd: quimica/: No such file or directory
+Monaco21:algebra alumno$ ls
+archivo.txt
+Monaco21:algebra alumno$ cd ..
+Monaco21:practica2 alumno$ ls
+algebra		calculo		fisica		programacion	quimica
+Monaco21:practica2 alumno$ cd fisica
+Monaco21:fisica alumno$ ls
+archivo.txt
+Monaco21:fisica alumno$ cd ../
+Monaco21:practica2 alumno$ 
