@@ -1,0 +1,30 @@
+Dado un precio calcular su descuento considerando que si el precio es mayor a 100 el descuento será de 10% sino será de 2%
+ENTRADA: precio 
+SALIDA:	precio con descuento 
+
+1. Obtener el precio incial
+2. Si el precio es mayor a 100 multiplicar por .9, de lo contrario multiplicar por .98
+3. Dar el numero obtenido como el resultado del precio con descuento
+
+
+Un algoritmo que lea 2 numeros que calcule su suma resta multiplicación y división
+ENTRADA: numero 1 y numero 2
+SALIDA: suma resta multiplicación y division
+
+1. Leer el numero 1 y numero 2
+2. Sumar numero 1 y numero 2
+3. Restar numero 1 y numero 2
+4. Multiplicar numero 1 y numero 2 y viseversa
+5. Dividir numero 1 y numero 2 y viseversa
+
+
+Leer tres numeros que van a denotar una fecha (d/m/a) y verificar si es una fecha valida
+ENTRADA: tres numeros
+SALIDA: verdadera o falso
+
+1. Leer los tres numeres
+2. Acomodarlos por d/m/a
+3. Si la fecha es mayor a 32 será falso
+4. Si el día es mayor o igual a 31 en los meses 4, 6, 9, y 11 será falso 
+5. Si el día es mayor o igual a 28 en el mes 2 sera falso
+6. Si el mes es mayor o igual a 13 será falso 
